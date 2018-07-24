@@ -5,21 +5,7 @@ from dandelion import DataTXT
 import dandelion
 import pandas as pd
 
-#app_id = '21a98370ef2344d7aaed56d64b859342'
-#app_key ='21a98370ef2344d7aaed56d64b859342'
-#app_id='d99db9265bb44b898b6b18a2974029d4'
-#app_key='d99db9265bb44b898b6b18a2974029d4'
-#app_id = 'f915e7a160264eb7a9d0325a6e4d4456'
-#app_key ='f915e7a160264eb7a9d0325a6e4d4456'
-#app_id='89e955ec286c499194067f2399116beb'
-#app_key='89e955ec286c499194067f2399116beb'
-app_id='b653682a7ec740db87965b228972cf61'
-app_key='b653682a7ec740db87965b228972cf61'
-#app_id='62c1323945ce4714b1b08dd8e28dd6f3'
-#app_key='62c1323945ce4714b1b08dd8e28dd6f3'
-#app_id='8cd0d21d4c5d47de98fc5ac60368d17e'
-#app_key='8cd0d21d4c5d47de98fc5ac60368d17e'
-datatxt = DataTXT(app_id='b653682a7ec740db87965b228972cf61',app_key='b653682a7ec740db87965b228972cf61')
+datatxt = DataTXT(app_id='',app_key='ENTER YOUR TWITTER API KEY')
 if __name__=='__main__':
 	query1=raw_input("Enter the input claim:")
 	inputFile=raw_input("Enter the file name to be checked for:")
